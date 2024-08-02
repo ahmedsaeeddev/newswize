@@ -12,21 +12,20 @@
 .container .logo a img {
     width: 200px;
     font-weight: bold;
+    margin: auto;
     color: white;
 }
 
-.container .links a {
-    color: rgb(0, 0, 0);
-    padding: 30px;
-    font-size: 19px;
+.container .logo a {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
 }
 
-.container .links a:first-child {
-    color: #E54B4B;
-}
-
-.container .links a:hover {
-    color: #E54B4B;
+.logo {
+    margin: auto;
 }
 
 body {
@@ -34,6 +33,8 @@ body {
 }
 
 .container {
+    text-align: center;
+    justify-content: center;
     margin: auto;
     background-color: #EDEDED;
     display: flex;
@@ -43,7 +44,6 @@ body {
     position: absolute;
     top: 20px;
     width: 1230px;
-    margin: auto;
 }
 
 .container-fluid {
